@@ -1,0 +1,3 @@
+[submodule "vendor/Knuckles"]
+	path = vendor/Knuckles
+	url = https://github.com/Procius-Gaming/Knuckles.git
