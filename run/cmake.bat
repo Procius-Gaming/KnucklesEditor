@@ -1,1 +1,1 @@
-cmake -G "Unix Makefiles" -S Test/ -B build/ -DCMAKE_C_FLAGS="-mwindows"
+cmake -G "Unix Makefiles" -S . -B build/ -DCMAKE_C_FLAGS="-mwindows"

@@ -1,3 +1,3 @@
 #!/bin/bash
 cd build
-./Editor
+./KnucklesEditor

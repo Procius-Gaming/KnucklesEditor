@@ -1,2 +1,2 @@
 #!/bin/bash
-cmake -G "Unix Makefiles" -S Editor/ -B build/
+cmake -G "Unix Makefiles" -S . -B build/

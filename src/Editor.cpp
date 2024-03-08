@@ -237,10 +237,10 @@ void Editor::PropretiesShow(Knuckles::Object *ob) {
   {
     ImGui::Text("Image:  ");
     ImGui::SameLine();
-    ImGui::Image(ob->GetMeshComp()->GetTex(), ImVec2(100, 100));
+    //ImGui::Image(ob->GetMeshComp()->GetTex(), ImVec2(100, 100));
     ImGui::Text("PATH: ");
     ImGui::SameLine();
-    ImGui::Text("%s", ob->GetMesh()->GetFileName().c_str());
+    //ImGui::Text("%s", ob->GetMesh()->GetFileName().c_str());
   }
 
   ImGui::End();
