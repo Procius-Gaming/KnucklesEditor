@@ -7,6 +7,10 @@ file(GLOB SOURCES src/*.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+add_compile_definitions(
+KE_EDITOR
+)
+
 add_subdirectory(vendor/Knuckles )
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD 
